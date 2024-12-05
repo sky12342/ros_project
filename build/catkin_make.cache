@@ -1,0 +1,2 @@
+atr_pkg:lidar:nav_pkg:ros_project/src/wpb_home/wpb_home_behaviors:ros_project/src/wpb_home/wpb_home_bringup:ros_project/src/wpb_home/wpb_home_python:ros_project/src/wpb_home/wpb_home_python3:ros_project/src/wpb_home/wpb_home_remote:ros_project/src/wpb_home/wpb_home_tutorials:ros_project/src/wpb_home/wpbh_local_planner:ssr_pkg:wpr_simulation
+-DCATKIN_DEVEL_PREFIX=/root/catkin_ws/devel -DCMAKE_INSTALL_PREFIX=/root/catkin_ws/install -G Unix Makefiles

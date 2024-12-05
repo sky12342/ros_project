@@ -1,0 +1,8 @@
+<launch>
+
+<node pkg = "ssr_pkg" type = "ssr_pkg_node" name = "my_message"/>
+<node pkg = "atr_pkg" type = "atr_pkg_node" name = "sub" output = "screen"/>
+
+
+
+</launch>
