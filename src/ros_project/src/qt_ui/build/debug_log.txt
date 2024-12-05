@@ -1,0 +1,381 @@
+run is running!!!goal_received: 0, 0
+went into while goal_received: 0, 0
+goal_received: 0, 0
+went into while goal_received: 0, 0
+goal_received: 0, 0
+went into while goal_received: 0, 0
+goal_received: 0, 0
+went into while goal_received: 0, 0
+goal_received: 0, 0
+went into while goal_received: 0, 0
+goal_received: 0, 0
+went into while goal_received: 0, 0
+goal_received: 0, 0
+went into while goal_received: 0, 0
+goal_received: 0, 0
+went into while goal_received: 0, 0
+goal_received: 0, 0
+went into while goal_received: 0, 0
+goal_received: 0, 0
+went into while goal_received: 0, 0
+goal_received: 0, 0
+went into while goal_received: 0, 0
+goal_received: 0, 0
+went into while goal_received: 0, 0
+goal_received: 0, 0
+went into while goal_received: 0, 0
+goal_received: 0, 0
+went into while goal_received: 0, 0
+goal_received: 0, 0
+went into while goal_received: 0, 0
+goal_received: 0, 0
+went into while goal_received: 0, 0
+goal_received: 0, 0
+went into while goal_received: 0, 0
+goal_received: 0, 0
+went into while goal_received: 0, 0
+goal_received: 0, 0
+went into while goal_received: 0, 0
+goal_received: 0, 0
+went into while goal_received: 0, 0
+goal_received: 0, 0
+went into while goal_received: 0, 0
+goal_received: 0, 0
+went into while goal_received: 0, 0
+goal_received: 0, 0
+went into while goal_received: 0, 0
+goal_received: 0, 0
+went into while goal_received: 0, 0
+goal_received: 0, 0
+went into while goal_received: 0, 0
+goal_received: 0, 0
+went into while goal_received: 0, 0
+goal_received: 0, 0
+went into while goal_received: 0, 0
+goal_received: 0, 0
+went into while goal_received: 0, 0
+goal_received: 0, 0
+went into while goal_received: 0, 0
+goal_received: 0, 0
+went into while goal_received: 0, 0
+goal_received: 0, 0
+went into while goal_received: 0, 0
+goal_received: 0, 0
+went into while goal_received: 0, 0
+goal_received: 0, 0
+went into while goal_received: 0, 0
+goal_received: 0, 0
+went into while goal_received: 0, 0
+goal_received: 0, 0
+went into while goal_received: 0, 0
+goal_received: 0, 0
+went into while goal_received: 0, 0
+goal_received: 0, 0
+went into while goal_received: 0, 0
+goal_received: 0, 0
+went into while goal_received: 0, 0
+goal_received: 0, 0
+went into while goal_received: 0, 0
+goal_received: 0, 0
+went into while goal_received: 0, 0
+goal_received: 0, 0
+went into while goal_received: 0, 0
+goal_received: 0, 0
+went into while goal_received: 0, 0
+goal_received: 0, 0
+went into while goal_received: 0, 0
+goal_received: 0, 0
+went into while goal_received: 0, 0
+goal_received: 0, 0
+went into while goal_received: 0, 0
+goal_received: 0, 0
+went into while goal_received: 0, 0
+goal_received: 0, 0
+went into while goal_received: 0, 0
+goal_received: 0, 0
+went into while goal_received: 0, 0
+goal_received: 0, 0
+went into while goal_received: 0, 0
+goal_received: 0, 0
+went into while goal_received: 0, 0
+goal_received: 0, 0
+went into while goal_received: 0, 0
+goal_received: 0, 0
+went into while goal_received: 0, 0
+goal_received: 0, 0
+went into while goal_received: 0, 0
+goal_received: 0, 0
+went into while goal_received: 0, 0
+goal_received: 0, 0
+went into while goal_received: 0, 0
+goal_received: 0, 0
+went into while goal_received: 0, 0
+goal_received: 0, 0
+went into while goal_received: 0, 0
+goal_received: 0, 0
+went into while goal_received: 0, 0
+goal_received: 0, 0
+went into while goal_received: 0, 0
+goal_received: 0, 0
+went into while goal_received: 0, 0
+goal_received: 0, 0
+went into while goal_received: 0, 0
+goal_received: 0, 0
+went into while goal_received: 0, 0
+goal_received: 0, 0
+went into while goal_received: 0, 0
+goal_received: 0, 0
+went into while goal_received: 0, 0
+goal_received: 0, 0
+received: 1, 1
+went into while goal_received: 1, 1
+goal_received: 1, 1
+went into while goal_received: 1, 1
+goal_received: 1, 1
+run is running!!!goal_received: 0, 0
+went into while goal_received: 0, 0
+goal_received: 0, 0
+went into while goal_received: 0, 0
+goal_received: 0, 0
+went into while goal_received: 0, 0
+goal_received: 0, 0
+went into while goal_received: 0, 0
+goal_received: 0, 0
+went into while goal_received: 0, 0
+goal_received: 0, 0
+went into while goal_received: 0, 0
+goal_received: 0, 0
+went into while goal_received: 0, 0
+goal_received: 0, 0
+went into while goal_received: 0, 0
+goal_received: 0, 0
+went into while goal_received: 0, 0
+goal_received: 0, 0
+went into while goal_received: 0, 0
+goal_received: 0, 0
+went into while goal_received: 0, 0
+goal_received: 0, 0
+went into while goal_received: 0, 0
+goal_received: 0, 0
+went into while goal_received: 0, 0
+goal_received: 0, 0
+went into while goal_received: 0, 0
+goal_received: 0, 0
+went into while goal_received: 0, 0
+goal_received: 0, 0
+went into while goal_received: 0, 0
+goal_received: 0, 0
+went into while goal_received: 0, 0
+goal_received: 0, 0
+went into while goal_received: 0, 0
+goal_received: 0, 0
+went into while goal_received: 0, 0
+goal_received: 0, 0
+went into while goal_received: 0, 0
+goal_received: 0, 0
+went into while goal_received: 0, 0
+goal_received: 0, 0
+went into while goal_received: 0, 0
+goal_received: 0, 0
+went into while goal_received: 0, 0
+goal_received: 0, 0
+went into while goal_received: 0, 0
+goal_received: 0, 0
+went into while goal_received: 0, 0
+goal_received: 0, 0
+went into while goal_received: 0, 0
+goal_received: 0, 0
+went into while goal_received: 0, 0
+goal_received: 0, 0
+went into while goal_received: 0, 0
+goal_received: 0, 0
+went into while goal_received: 0, 0
+goal_received: 0, 0
+went into while goal_received: 0, 0
+goal_received: 0, 0
+went into while goal_received: 0, 0
+goal_received: 0, 0
+went into while goal_received: 0, 0
+goal_received: 0, 0
+went into while goal_received: 0, 0
+goal_received: 0, 0
+went into while goal_received: 0, 0
+goal_received: 0, 0
+went into while goal_received: 0, 0
+goal_received: 0, 0
+went into while goal_received: 0, 0
+goal_received: 0, 0
+went into while goal_received: 0, 0
+goal_received: 0, 0
+went into while goal_received: 0, 0
+goal_received: 0, 0
+went into while goal_received: 0, 0
+goal_received: 0, 0
+went into while goal_received: 0, 0
+goal_received: 0, 0
+went into while goal_received: 0, 0
+goal_received: 0, 0
+went into while goal_received: 0, 0
+goal_received: 0, 0
+went into while goal_received: 0, 0
+goal_received: 0, 0
+went into while goal_received: 0, 0
+goal_received: 0, 0
+went into while goal_received: 0, 0
+goal_received: 0, 0
+went into while goal_received: 0, 0
+goal_received: 0, 0
+went into while goal_received: 0, 0
+goal_received: 0, 0
+went into while goal_received: 0, 0
+goal_received: 0, 0
+went into while goal_received: 0, 0
+goal_received: 0, 0
+went into while goal_received: 0, 0
+goal_received: 0, 0
+went into while goal_received: 0, 0
+goal_received: 0, 0
+went into while goal_received: 0, 0
+goal_received: 0, 0
+went into while goal_received: 0, 0
+goal_received: 0, 0
+went into while goal_received: 0, 0
+goal_received: 0, 0
+went into while goal_received: 0, 0
+goal_received: 0, 0
+went into while goal_received: 0, 0
+goal_received: 0, 0
+went into while goal_received: 0, 0
+goal_received: 0, 0
+went into while goal_received: 0, 0
+goal_received: 0, 0
+went into while goal_received: 0, 0
+goal_received: 0, 0
+went into while goal_received: 0, 0
+goal_received: 0, 0
+went into while goal_received: 0, 0
+goal_received: 0, 0
+went into while goal_received: 0, 0
+goal_received: 0, 0
+went into while goal_received: 0, 0
+goal_received: 0, 0
+went into while goal_received: 0, 0
+goal_received: 0, 0
+went into while goal_received: 0, 0
+goal_received: 0, 0
+went into while goal_received: 0, 0
+goal_received: 0, 0
+went into while goal_received: 0, 0
+goal_received: 0, 0
+went into while goal_received: 0, 0
+goal_received: 0, 0
+went into while goal_received: 0, 0
+goal_received: 0, 0
+went into while goal_received: 0, 0
+goal_received: 0, 0
+received: 2, 3
+went into while goal_received: 2, 3
+goal_received: 2, 3
+went into while goal_received: 2, 3
+goal_received: 2, 3
+went into while goal_received: 2, 3
+goal_received: 2, 3
+went into while goal_received: 2, 3
+goal_received: 2, 3
+went into while goal_received: 2, 3
+goal_received: 2, 3
+went into while goal_received: 2, 3
+goal_received: 2, 3
+went into while goal_received: 2, 3
+goal_received: 2, 3
+went into while goal_received: 2, 3
+goal_received: 2, 3
+went into while goal_received: 2, 3
+goal_received: 2, 3
+went into while goal_received: 2, 3
+goal_received: 2, 3
+went into while goal_received: 2, 3
+goal_received: 2, 3
+went into while goal_received: 2, 3
+goal_received: 2, 3
+went into while goal_received: 2, 3
+goal_received: 2, 3
+went into while goal_received: 2, 3
+goal_received: 2, 3
+went into while goal_received: 2, 3
+goal_received: 2, 3
+went into while goal_received: 2, 3
+goal_received: 2, 3
+went into while goal_received: 2, 3
+goal_received: 2, 3
+went into while goal_received: 2, 3
+goal_received: 2, 3
+went into while goal_received: 2, 3
+goal_received: 2, 3
+went into while goal_received: 2, 3
+goal_received: 2, 3
+went into while goal_received: 2, 3
+goal_received: 2, 3
+went into while goal_received: 2, 3
+goal_received: 2, 3
+went into while goal_received: 2, 3
+goal_received: 2, 3
+went into while goal_received: 2, 3
+goal_received: 2, 3
+went into while goal_received: 2, 3
+goal_received: 2, 3
+went into while goal_received: 2, 3
+goal_received: 2, 3
+went into while goal_received: 2, 3
+goal_received: 2, 3
+went into while goal_received: 2, 3
+goal_received: 2, 3
+went into while goal_received: 2, 3
+goal_received: 2, 3
+went into while goal_received: 2, 3
+goal_received: 2, 3
+went into while goal_received: 2, 3
+goal_received: 2, 3
+went into while goal_received: 2, 3
+goal_received: 2, 3
+went into while goal_received: 2, 3
+goal_received: 2, 3
+went into while goal_received: 2, 3
+goal_received: 2, 3
+went into while goal_received: 2, 3
+goal_received: 2, 3
+went into while goal_received: 2, 3
+goal_received: 2, 3
+went into while goal_received: 2, 3
+goal_received: 2, 3
+went into while goal_received: 2, 3
+goal_received: 2, 3
+went into while goal_received: 2, 3
+goal_received: 2, 3
+went into while goal_received: 2, 3
+goal_received: 2, 3
+went into while goal_received: 2, 3
+goal_received: 2, 3
+went into while goal_received: 2, 3
+goal_received: 2, 3
+went into while goal_received: 2, 3
+goal_received: 2, 3
+went into while goal_received: 2, 3
+goal_received: 2, 3
+went into while goal_received: 2, 3
+goal_received: 2, 3
+went into while goal_received: 2, 3
+goal_received: 2, 3
+went into while goal_received: 2, 3
+goal_received: 2, 3
+went into while goal_received: 2, 3
+goal_received: 2, 3
+went into while goal_received: 2, 3
+goal_received: 2, 3
+went into while goal_received: 2, 3
+goal_received: 2, 3
+went into while goal_received: 2, 3
+goal_received: 2, 3
+received: 0, 0
+went into while goal_received: 0, 0
+goal_received: 0, 0

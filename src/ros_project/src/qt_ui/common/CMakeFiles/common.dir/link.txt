@@ -1,0 +1,1 @@
+/usr/bin/c++ -fPIC -shared -Wl,-soname,libcommon.so -o libcommon.so CMakeFiles/common.dir/common.o CMakeFiles/common.dir/Log.o  -lglog 

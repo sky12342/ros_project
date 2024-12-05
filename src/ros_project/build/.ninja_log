@@ -1,0 +1,6 @@
+# ninja log v5
+0	382	1730728422808147139	src/common/CMakeFiles/common.dir/common.cpp.o	f16cbe50b3797cc6
+0	383	1730728422808147139	src/common/CMakeFiles/test.dir/test.cpp.o	3b963fba0a2441f1
+0	384	1730728422812147653	src/common/CMakeFiles/common.dir/Log.cpp.o	c71efaf313b71f47
+384	481	1730728422904159481	../lib/libcommon.so	735f3074eb37e5d9
+481	561	1730728422984169767	../bin/test	4b7423fc74543caf

@@ -1,0 +1,4 @@
+Log file created at: 2024/11/26 09:00:42
+Running on machine: 100ask
+Log line format: [IWEF]mmdd hh:mm:ss.uuuuuu threadid file:line] msg
+I1126 09:00:42.147756 383868 mainwindow.cpp:28] mainWindow Log Hello World!!!

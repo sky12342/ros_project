@@ -1,0 +1,107 @@
+[
+{
+  "directory": "/home/book/ros_project/build",
+  "command": "/usr/bin/g++ -Dcommon_EXPORTS -I/home/book/ros_project/build/src/common -I/home/book/ros_project/src/common -I/home/book/ros_project/src/qt_ui -I/usr/include/glog -w -g -ggdb -w -fPIC -std=gnu++17 -o src/common/CMakeFiles/common.dir/common.cpp.o -c /home/book/ros_project/src/common/common.cpp",
+  "file": "/home/book/ros_project/src/common/common.cpp"
+},
+{
+  "directory": "/home/book/ros_project/build",
+  "command": "/usr/bin/g++ -Dcommon_EXPORTS -I/home/book/ros_project/build/src/common -I/home/book/ros_project/src/common -I/home/book/ros_project/src/qt_ui -I/usr/include/glog -w -g -ggdb -w -fPIC -std=gnu++17 -o src/common/CMakeFiles/common.dir/Log.cpp.o -c /home/book/ros_project/src/common/Log.cpp",
+  "file": "/home/book/ros_project/src/common/Log.cpp"
+},
+{
+  "directory": "/home/book/ros_project/build",
+  "command": "/usr/bin/g++ -I/home/book/ros_project/build/src/common -I/home/book/ros_project/src/common -I/home/book/ros_project/src/qt_ui -I/usr/include/glog -w -g -ggdb -w -std=gnu++17 -o src/common/CMakeFiles/test.dir/test.cpp.o -c /home/book/ros_project/src/common/test.cpp",
+  "file": "/home/book/ros_project/src/common/test.cpp"
+},
+{
+  "directory": "/home/book/ros_project/build",
+  "command": "/usr/bin/g++ -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"qt_ui\\\" -Dqt_ui_EXPORTS -I/home/book/ros_project/build/src/qt_ui -I/home/book/ros_project/src/qt_ui -I/home/book/ros_project/build/src/qt_ui/qt_ui_autogen/include -I/home/book/ros_project/src/common -I/opt/ros/noetic/include -I/opt/ros/noetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp -I/home/book/ros_project/src/qt_ui/../common -isystem /usr/include/x86_64-linux-gnu/qt5 -isystem /usr/include/x86_64-linux-gnu/qt5/QtWidgets -isystem /usr/include/x86_64-linux-gnu/qt5/QtGui -isystem /usr/include/x86_64-linux-gnu/qt5/QtCore -isystem /usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++ -w -g -ggdb -w -fPIC -fPIC -std=gnu++17 -o src/qt_ui/CMakeFiles/qt_ui.dir/qt_ui_autogen/mocs_compilation.cpp.o -c /home/book/ros_project/build/src/qt_ui/qt_ui_autogen/mocs_compilation.cpp",
+  "file": "/home/book/ros_project/build/src/qt_ui/qt_ui_autogen/mocs_compilation.cpp"
+},
+{
+  "directory": "/home/book/ros_project/build",
+  "command": "/usr/bin/g++ -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"qt_ui\\\" -Dqt_ui_EXPORTS -I/home/book/ros_project/build/src/qt_ui -I/home/book/ros_project/src/qt_ui -I/home/book/ros_project/build/src/qt_ui/qt_ui_autogen/include -I/home/book/ros_project/src/common -I/opt/ros/noetic/include -I/opt/ros/noetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp -I/home/book/ros_project/src/qt_ui/../common -isystem /usr/include/x86_64-linux-gnu/qt5 -isystem /usr/include/x86_64-linux-gnu/qt5/QtWidgets -isystem /usr/include/x86_64-linux-gnu/qt5/QtGui -isystem /usr/include/x86_64-linux-gnu/qt5/QtCore -isystem /usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++ -w -g -ggdb -w -fPIC -fPIC -std=gnu++17 -o src/qt_ui/CMakeFiles/qt_ui.dir/mainwindow.cpp.o -c /home/book/ros_project/src/qt_ui/mainwindow.cpp",
+  "file": "/home/book/ros_project/src/qt_ui/mainwindow.cpp"
+},
+{
+  "directory": "/home/book/ros_project/build",
+  "command": "/usr/bin/g++ -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"qt_ui\\\" -Dqt_ui_EXPORTS -I/home/book/ros_project/build/src/qt_ui -I/home/book/ros_project/src/qt_ui -I/home/book/ros_project/build/src/qt_ui/qt_ui_autogen/include -I/home/book/ros_project/src/common -I/opt/ros/noetic/include -I/opt/ros/noetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp -I/home/book/ros_project/src/qt_ui/../common -isystem /usr/include/x86_64-linux-gnu/qt5 -isystem /usr/include/x86_64-linux-gnu/qt5/QtWidgets -isystem /usr/include/x86_64-linux-gnu/qt5/QtGui -isystem /usr/include/x86_64-linux-gnu/qt5/QtCore -isystem /usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++ -w -g -ggdb -w -fPIC -fPIC -std=gnu++17 -o src/qt_ui/CMakeFiles/qt_ui.dir/ros_worker.cpp.o -c /home/book/ros_project/src/qt_ui/ros_worker.cpp",
+  "file": "/home/book/ros_project/src/qt_ui/ros_worker.cpp"
+},
+{
+  "directory": "/home/book/ros_project/build",
+  "command": "/usr/bin/g++ -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"qt_ui\\\" -Dqt_ui_EXPORTS -I/home/book/ros_project/build/src/qt_ui -I/home/book/ros_project/src/qt_ui -I/home/book/ros_project/build/src/qt_ui/qt_ui_autogen/include -I/home/book/ros_project/src/common -I/opt/ros/noetic/include -I/opt/ros/noetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp -I/home/book/ros_project/src/qt_ui/../common -isystem /usr/include/x86_64-linux-gnu/qt5 -isystem /usr/include/x86_64-linux-gnu/qt5/QtWidgets -isystem /usr/include/x86_64-linux-gnu/qt5/QtGui -isystem /usr/include/x86_64-linux-gnu/qt5/QtCore -isystem /usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++ -w -g -ggdb -w -fPIC -fPIC -std=gnu++17 -o src/qt_ui/CMakeFiles/qt_ui.dir/SignalSlotProxy.cpp.o -c /home/book/ros_project/src/qt_ui/SignalSlotProxy.cpp",
+  "file": "/home/book/ros_project/src/qt_ui/SignalSlotProxy.cpp"
+},
+{
+  "directory": "/home/book/ros_project/build",
+  "command": "/usr/bin/g++ -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"qt_ui\\\" -Dqt_ui_EXPORTS -I/home/book/ros_project/build/src/qt_ui -I/home/book/ros_project/src/qt_ui -I/home/book/ros_project/build/src/qt_ui/qt_ui_autogen/include -I/home/book/ros_project/src/common -I/opt/ros/noetic/include -I/opt/ros/noetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp -I/home/book/ros_project/src/qt_ui/../common -isystem /usr/include/x86_64-linux-gnu/qt5 -isystem /usr/include/x86_64-linux-gnu/qt5/QtWidgets -isystem /usr/include/x86_64-linux-gnu/qt5/QtGui -isystem /usr/include/x86_64-linux-gnu/qt5/QtCore -isystem /usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++ -w -g -ggdb -w -fPIC -fPIC -std=gnu++17 -o src/qt_ui/CMakeFiles/qt_ui.dir/rosWorkList.cpp.o -c /home/book/ros_project/src/qt_ui/rosWorkList.cpp",
+  "file": "/home/book/ros_project/src/qt_ui/rosWorkList.cpp"
+},
+{
+  "directory": "/home/book/ros_project/build",
+  "command": "/usr/bin/g++ -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"qt_ui\\\" -Dqt_ui_EXPORTS -I/home/book/ros_project/build/src/qt_ui -I/home/book/ros_project/src/qt_ui -I/home/book/ros_project/build/src/qt_ui/qt_ui_autogen/include -I/home/book/ros_project/src/common -I/opt/ros/noetic/include -I/opt/ros/noetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp -I/home/book/ros_project/src/qt_ui/../common -isystem /usr/include/x86_64-linux-gnu/qt5 -isystem /usr/include/x86_64-linux-gnu/qt5/QtWidgets -isystem /usr/include/x86_64-linux-gnu/qt5/QtGui -isystem /usr/include/x86_64-linux-gnu/qt5/QtCore -isystem /usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++ -w -g -ggdb -w -fPIC -fPIC -std=gnu++17 -o src/qt_ui/CMakeFiles/qt_ui.dir/__/common/common.cpp.o -c /home/book/ros_project/src/common/common.cpp",
+  "file": "/home/book/ros_project/src/common/common.cpp"
+},
+{
+  "directory": "/home/book/ros_project/build",
+  "command": "/usr/bin/g++ -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"qt_ui\\\" -Dqt_ui_EXPORTS -I/home/book/ros_project/build/src/qt_ui -I/home/book/ros_project/src/qt_ui -I/home/book/ros_project/build/src/qt_ui/qt_ui_autogen/include -I/home/book/ros_project/src/common -I/opt/ros/noetic/include -I/opt/ros/noetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp -I/home/book/ros_project/src/qt_ui/../common -isystem /usr/include/x86_64-linux-gnu/qt5 -isystem /usr/include/x86_64-linux-gnu/qt5/QtWidgets -isystem /usr/include/x86_64-linux-gnu/qt5/QtGui -isystem /usr/include/x86_64-linux-gnu/qt5/QtCore -isystem /usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++ -w -g -ggdb -w -fPIC -fPIC -std=gnu++17 -o src/qt_ui/CMakeFiles/qt_ui.dir/__/common/Log.cpp.o -c /home/book/ros_project/src/common/Log.cpp",
+  "file": "/home/book/ros_project/src/common/Log.cpp"
+},
+{
+  "directory": "/home/book/ros_project/build",
+  "command": "/usr/bin/g++ -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"qt_ui\\\" -Dqt_ui_EXPORTS -I/home/book/ros_project/build/src/qt_ui -I/home/book/ros_project/src/qt_ui -I/home/book/ros_project/build/src/qt_ui/qt_ui_autogen/include -I/home/book/ros_project/src/common -I/opt/ros/noetic/include -I/opt/ros/noetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp -I/home/book/ros_project/src/qt_ui/../common -isystem /usr/include/x86_64-linux-gnu/qt5 -isystem /usr/include/x86_64-linux-gnu/qt5/QtWidgets -isystem /usr/include/x86_64-linux-gnu/qt5/QtGui -isystem /usr/include/x86_64-linux-gnu/qt5/QtCore -isystem /usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++ -w -g -ggdb -w -fPIC -fPIC -std=gnu++17 -o src/qt_ui/CMakeFiles/qt_ui.dir/moc_rosFcuntionbase.cpp.o -c /home/book/ros_project/build/src/qt_ui/moc_rosFcuntionbase.cpp",
+  "file": "/home/book/ros_project/build/src/qt_ui/moc_rosFcuntionbase.cpp"
+},
+{
+  "directory": "/home/book/ros_project/build",
+  "command": "/usr/bin/g++ -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"qt_ui\\\" -I/home/book/ros_project/build/src/qt_ui -I/home/book/ros_project/src/qt_ui -I/home/book/ros_project/build/src/qt_ui/qt_ui_test_autogen/include -I/home/book/ros_project/src/common -I/opt/ros/noetic/include -I/opt/ros/noetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp -I/home/book/ros_project/src/qt_ui/../common -isystem /usr/include/x86_64-linux-gnu/qt5 -isystem /usr/include/x86_64-linux-gnu/qt5/QtWidgets -isystem /usr/include/x86_64-linux-gnu/qt5/QtGui -isystem /usr/include/x86_64-linux-gnu/qt5/QtCore -isystem /usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++ -w -g -ggdb -w -fPIC -std=gnu++17 -o src/qt_ui/CMakeFiles/qt_ui_test.dir/qt_ui_test_autogen/mocs_compilation.cpp.o -c /home/book/ros_project/build/src/qt_ui/qt_ui_test_autogen/mocs_compilation.cpp",
+  "file": "/home/book/ros_project/build/src/qt_ui/qt_ui_test_autogen/mocs_compilation.cpp"
+},
+{
+  "directory": "/home/book/ros_project/build",
+  "command": "/usr/bin/g++ -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"qt_ui\\\" -I/home/book/ros_project/build/src/qt_ui -I/home/book/ros_project/src/qt_ui -I/home/book/ros_project/build/src/qt_ui/qt_ui_test_autogen/include -I/home/book/ros_project/src/common -I/opt/ros/noetic/include -I/opt/ros/noetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp -I/home/book/ros_project/src/qt_ui/../common -isystem /usr/include/x86_64-linux-gnu/qt5 -isystem /usr/include/x86_64-linux-gnu/qt5/QtWidgets -isystem /usr/include/x86_64-linux-gnu/qt5/QtGui -isystem /usr/include/x86_64-linux-gnu/qt5/QtCore -isystem /usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++ -w -g -ggdb -w -fPIC -std=gnu++17 -o src/qt_ui/CMakeFiles/qt_ui_test.dir/main.cpp.o -c /home/book/ros_project/src/qt_ui/main.cpp",
+  "file": "/home/book/ros_project/src/qt_ui/main.cpp"
+},
+{
+  "directory": "/home/book/ros_project/build",
+  "command": "/usr/bin/g++ -DGTEST_CREATE_SHARED_LIBRARY=1 -Dgmock_EXPORTS -I/home/book/ros_project/build/gtest/googlemock -I/usr/src/googletest/googlemock -I/home/book/ros_project/build/gtest/googlemock/gmock_autogen/include -I/home/book/ros_project/src/common -I/home/book/ros_project/src/qt_ui -I/usr/src/googletest/googlemock/include -isystem /usr/src/googletest/googletest/include -isystem /usr/src/googletest/googletest -w -g -ggdb -w -fPIC -Wall -Wshadow -Wno-error=dangling-else -DGTEST_HAS_PTHREAD=1 -fexceptions -Wextra -Wno-unused-parameter -Wno-missing-field-initializers -DGTEST_HAS_PTHREAD=1 -std=c++17 -o gtest/googlemock/CMakeFiles/gmock.dir/gmock_autogen/mocs_compilation.cpp.o -c /home/book/ros_project/build/gtest/googlemock/gmock_autogen/mocs_compilation.cpp",
+  "file": "/home/book/ros_project/build/gtest/googlemock/gmock_autogen/mocs_compilation.cpp"
+},
+{
+  "directory": "/home/book/ros_project/build",
+  "command": "/usr/bin/g++ -DGTEST_CREATE_SHARED_LIBRARY=1 -Dgmock_EXPORTS -I/home/book/ros_project/build/gtest/googlemock -I/usr/src/googletest/googlemock -I/home/book/ros_project/build/gtest/googlemock/gmock_autogen/include -I/home/book/ros_project/src/common -I/home/book/ros_project/src/qt_ui -I/usr/src/googletest/googlemock/include -isystem /usr/src/googletest/googletest/include -isystem /usr/src/googletest/googletest -w -g -ggdb -w -fPIC -Wall -Wshadow -Wno-error=dangling-else -DGTEST_HAS_PTHREAD=1 -fexceptions -Wextra -Wno-unused-parameter -Wno-missing-field-initializers -DGTEST_HAS_PTHREAD=1 -std=c++17 -o gtest/googlemock/CMakeFiles/gmock.dir/src/gmock-all.cc.o -c /usr/src/googletest/googlemock/src/gmock-all.cc",
+  "file": "/usr/src/googletest/googlemock/src/gmock-all.cc"
+},
+{
+  "directory": "/home/book/ros_project/build",
+  "command": "/usr/bin/g++ -DGTEST_CREATE_SHARED_LIBRARY=1 -Dgmock_main_EXPORTS -I/home/book/ros_project/build/gtest/googlemock -I/home/book/ros_project/build/gtest/googlemock/gmock_main_autogen/include -I/home/book/ros_project/src/common -I/home/book/ros_project/src/qt_ui -isystem /usr/src/googletest/googlemock -isystem /usr/src/googletest/googlemock/include -isystem /usr/src/googletest/googletest/include -isystem /usr/src/googletest/googletest -w -g -ggdb -w -fPIC -Wall -Wshadow -Wno-error=dangling-else -DGTEST_HAS_PTHREAD=1 -fexceptions -Wextra -Wno-unused-parameter -Wno-missing-field-initializers -DGTEST_HAS_PTHREAD=1 -std=c++17 -o gtest/googlemock/CMakeFiles/gmock_main.dir/gmock_main_autogen/mocs_compilation.cpp.o -c /home/book/ros_project/build/gtest/googlemock/gmock_main_autogen/mocs_compilation.cpp",
+  "file": "/home/book/ros_project/build/gtest/googlemock/gmock_main_autogen/mocs_compilation.cpp"
+},
+{
+  "directory": "/home/book/ros_project/build",
+  "command": "/usr/bin/g++ -DGTEST_CREATE_SHARED_LIBRARY=1 -Dgmock_main_EXPORTS -I/home/book/ros_project/build/gtest/googlemock -I/home/book/ros_project/build/gtest/googlemock/gmock_main_autogen/include -I/home/book/ros_project/src/common -I/home/book/ros_project/src/qt_ui -isystem /usr/src/googletest/googlemock -isystem /usr/src/googletest/googlemock/include -isystem /usr/src/googletest/googletest/include -isystem /usr/src/googletest/googletest -w -g -ggdb -w -fPIC -Wall -Wshadow -Wno-error=dangling-else -DGTEST_HAS_PTHREAD=1 -fexceptions -Wextra -Wno-unused-parameter -Wno-missing-field-initializers -DGTEST_HAS_PTHREAD=1 -std=c++17 -o gtest/googlemock/CMakeFiles/gmock_main.dir/src/gmock_main.cc.o -c /usr/src/googletest/googlemock/src/gmock_main.cc",
+  "file": "/usr/src/googletest/googlemock/src/gmock_main.cc"
+},
+{
+  "directory": "/home/book/ros_project/build",
+  "command": "/usr/bin/g++ -DGTEST_CREATE_SHARED_LIBRARY=1 -Dgtest_EXPORTS -I/home/book/ros_project/build/gtest/googletest -I/usr/src/googletest/googletest -I/home/book/ros_project/build/gtest/googletest/gtest_autogen/include -I/home/book/ros_project/src/common -I/home/book/ros_project/src/qt_ui -I/usr/src/googletest/googletest/include -w -g -ggdb -w -fPIC -Wall -Wshadow -Wno-error=dangling-else -DGTEST_HAS_PTHREAD=1 -fexceptions -Wextra -Wno-unused-parameter -Wno-missing-field-initializers -std=c++17 -o gtest/googletest/CMakeFiles/gtest.dir/gtest_autogen/mocs_compilation.cpp.o -c /home/book/ros_project/build/gtest/googletest/gtest_autogen/mocs_compilation.cpp",
+  "file": "/home/book/ros_project/build/gtest/googletest/gtest_autogen/mocs_compilation.cpp"
+},
+{
+  "directory": "/home/book/ros_project/build",
+  "command": "/usr/bin/g++ -DGTEST_CREATE_SHARED_LIBRARY=1 -Dgtest_EXPORTS -I/home/book/ros_project/build/gtest/googletest -I/usr/src/googletest/googletest -I/home/book/ros_project/build/gtest/googletest/gtest_autogen/include -I/home/book/ros_project/src/common -I/home/book/ros_project/src/qt_ui -I/usr/src/googletest/googletest/include -w -g -ggdb -w -fPIC -Wall -Wshadow -Wno-error=dangling-else -DGTEST_HAS_PTHREAD=1 -fexceptions -Wextra -Wno-unused-parameter -Wno-missing-field-initializers -std=c++17 -o gtest/googletest/CMakeFiles/gtest.dir/src/gtest-all.cc.o -c /usr/src/googletest/googletest/src/gtest-all.cc",
+  "file": "/usr/src/googletest/googletest/src/gtest-all.cc"
+},
+{
+  "directory": "/home/book/ros_project/build",
+  "command": "/usr/bin/g++ -DGTEST_CREATE_SHARED_LIBRARY=1 -Dgtest_main_EXPORTS -I/home/book/ros_project/build/gtest/googletest -I/home/book/ros_project/build/gtest/googletest/gtest_main_autogen/include -I/home/book/ros_project/src/common -I/home/book/ros_project/src/qt_ui -isystem /usr/src/googletest/googletest -isystem /usr/src/googletest/googletest/include -w -g -ggdb -w -fPIC -Wall -Wshadow -Wno-error=dangling-else -DGTEST_HAS_PTHREAD=1 -fexceptions -Wextra -Wno-unused-parameter -Wno-missing-field-initializers -DGTEST_HAS_PTHREAD=1 -std=c++17 -o gtest/googletest/CMakeFiles/gtest_main.dir/gtest_main_autogen/mocs_compilation.cpp.o -c /home/book/ros_project/build/gtest/googletest/gtest_main_autogen/mocs_compilation.cpp",
+  "file": "/home/book/ros_project/build/gtest/googletest/gtest_main_autogen/mocs_compilation.cpp"
+},
+{
+  "directory": "/home/book/ros_project/build",
+  "command": "/usr/bin/g++ -DGTEST_CREATE_SHARED_LIBRARY=1 -Dgtest_main_EXPORTS -I/home/book/ros_project/build/gtest/googletest -I/home/book/ros_project/build/gtest/googletest/gtest_main_autogen/include -I/home/book/ros_project/src/common -I/home/book/ros_project/src/qt_ui -isystem /usr/src/googletest/googletest -isystem /usr/src/googletest/googletest/include -w -g -ggdb -w -fPIC -Wall -Wshadow -Wno-error=dangling-else -DGTEST_HAS_PTHREAD=1 -fexceptions -Wextra -Wno-unused-parameter -Wno-missing-field-initializers -DGTEST_HAS_PTHREAD=1 -std=c++17 -o gtest/googletest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o -c /usr/src/googletest/googletest/src/gtest_main.cc",
+  "file": "/usr/src/googletest/googletest/src/gtest_main.cc"
+}
+]

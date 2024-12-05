@@ -1,0 +1,1 @@
+/usr/bin/c++ -w -O2 -g -ggdb -w CMakeFiles/test.dir/test.cpp.o -o ../../../bin/test  -Wl,-rpath,/home/book/ros_project/lib ../../../lib/libcommon.so -lglog 

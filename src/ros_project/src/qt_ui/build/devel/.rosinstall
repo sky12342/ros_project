@@ -1,0 +1,2 @@
+- setup-file:
+    local-name: /root/catkin_ws/src/ros_project/src/qt_ui/build/devel/setup.sh
