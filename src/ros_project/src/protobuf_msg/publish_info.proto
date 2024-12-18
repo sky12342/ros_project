@@ -1,0 +1,8 @@
+syntax = "proto3";
+
+package Destination.site;
+
+message PublishInfo {
+    int32 destination_x = 1;
+    int32 destination_y = 2;
+}

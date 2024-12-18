@@ -7,6 +7,7 @@
 #include<QProcess>
 #include "rosNodeManager.h"
 #include "SignalSlotProxy.h"
+#include "ros_destination_send.h"
 // #include "common.h"
 // #include "Log.h"
 
@@ -31,7 +32,6 @@ signals:
 
 private slots:
     
-
     void on_Start_SE_clicked();
 
 
@@ -49,6 +49,7 @@ private slots:
 private:
     Ui::MainWindow* ui_;
     std::unique_ptr<RosNodeManager<RosWorker>> ros_manager_;
+    std::unique_ptr<RosNodeManager<RosDestinationSender>> Destinatoin_node_manager_;
     std::unique_ptr<SignalSlotProxy> signal_slot_proxy_;  // 代理类
     // Common common_log_;
     // MyLog* myLog_;
@@ -56,6 +57,7 @@ private:
     QProcess* process1;
     QProcess* process2;
     QProcess* process3;
+    bool nv_point=true;
 };
 
 #endif // MAINWINDOW_H

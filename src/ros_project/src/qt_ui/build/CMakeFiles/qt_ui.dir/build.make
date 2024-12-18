@@ -126,9 +126,35 @@ CMakeFiles/qt_ui.dir/rosWorkList.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/qt_ui.dir/rosWorkList.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/catkin_ws/src/ros_project/src/qt_ui/rosWorkList.cpp -o CMakeFiles/qt_ui.dir/rosWorkList.cpp.s
 
+CMakeFiles/qt_ui.dir/ros_destination.cpp.o: CMakeFiles/qt_ui.dir/flags.make
+CMakeFiles/qt_ui.dir/ros_destination.cpp.o: ../ros_destination.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/catkin_ws/src/ros_project/src/qt_ui/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/qt_ui.dir/ros_destination.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/qt_ui.dir/ros_destination.cpp.o -c /root/catkin_ws/src/ros_project/src/qt_ui/ros_destination.cpp
+
+CMakeFiles/qt_ui.dir/ros_destination.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/qt_ui.dir/ros_destination.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /root/catkin_ws/src/ros_project/src/qt_ui/ros_destination.cpp > CMakeFiles/qt_ui.dir/ros_destination.cpp.i
+
+CMakeFiles/qt_ui.dir/ros_destination.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/qt_ui.dir/ros_destination.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/catkin_ws/src/ros_project/src/qt_ui/ros_destination.cpp -o CMakeFiles/qt_ui.dir/ros_destination.cpp.s
+
+CMakeFiles/qt_ui.dir/root/catkin_ws/src/ros_project/src/protobuf_msg/Build/publish_info.pb.cc.o: CMakeFiles/qt_ui.dir/flags.make
+CMakeFiles/qt_ui.dir/root/catkin_ws/src/ros_project/src/protobuf_msg/Build/publish_info.pb.cc.o: /root/catkin_ws/src/ros_project/src/protobuf_msg/Build/publish_info.pb.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/catkin_ws/src/ros_project/src/qt_ui/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/qt_ui.dir/root/catkin_ws/src/ros_project/src/protobuf_msg/Build/publish_info.pb.cc.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/qt_ui.dir/root/catkin_ws/src/ros_project/src/protobuf_msg/Build/publish_info.pb.cc.o -c /root/catkin_ws/src/ros_project/src/protobuf_msg/Build/publish_info.pb.cc
+
+CMakeFiles/qt_ui.dir/root/catkin_ws/src/ros_project/src/protobuf_msg/Build/publish_info.pb.cc.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/qt_ui.dir/root/catkin_ws/src/ros_project/src/protobuf_msg/Build/publish_info.pb.cc.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /root/catkin_ws/src/ros_project/src/protobuf_msg/Build/publish_info.pb.cc > CMakeFiles/qt_ui.dir/root/catkin_ws/src/ros_project/src/protobuf_msg/Build/publish_info.pb.cc.i
+
+CMakeFiles/qt_ui.dir/root/catkin_ws/src/ros_project/src/protobuf_msg/Build/publish_info.pb.cc.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/qt_ui.dir/root/catkin_ws/src/ros_project/src/protobuf_msg/Build/publish_info.pb.cc.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/catkin_ws/src/ros_project/src/protobuf_msg/Build/publish_info.pb.cc -o CMakeFiles/qt_ui.dir/root/catkin_ws/src/ros_project/src/protobuf_msg/Build/publish_info.pb.cc.s
+
 CMakeFiles/qt_ui.dir/moc_rosFcuntionbase.cpp.o: CMakeFiles/qt_ui.dir/flags.make
 CMakeFiles/qt_ui.dir/moc_rosFcuntionbase.cpp.o: moc_rosFcuntionbase.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/catkin_ws/src/ros_project/src/qt_ui/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/qt_ui.dir/moc_rosFcuntionbase.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/catkin_ws/src/ros_project/src/qt_ui/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/qt_ui.dir/moc_rosFcuntionbase.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/qt_ui.dir/moc_rosFcuntionbase.cpp.o -c /root/catkin_ws/src/ros_project/src/qt_ui/build/moc_rosFcuntionbase.cpp
 
 CMakeFiles/qt_ui.dir/moc_rosFcuntionbase.cpp.i: cmake_force
@@ -146,6 +172,8 @@ qt_ui_OBJECTS = \
 "CMakeFiles/qt_ui.dir/ros_worker.cpp.o" \
 "CMakeFiles/qt_ui.dir/SignalSlotProxy.cpp.o" \
 "CMakeFiles/qt_ui.dir/rosWorkList.cpp.o" \
+"CMakeFiles/qt_ui.dir/ros_destination.cpp.o" \
+"CMakeFiles/qt_ui.dir/root/catkin_ws/src/ros_project/src/protobuf_msg/Build/publish_info.pb.cc.o" \
 "CMakeFiles/qt_ui.dir/moc_rosFcuntionbase.cpp.o"
 
 # External object files for target qt_ui
@@ -156,6 +184,8 @@ libqt_ui.so: CMakeFiles/qt_ui.dir/mainwindow.cpp.o
 libqt_ui.so: CMakeFiles/qt_ui.dir/ros_worker.cpp.o
 libqt_ui.so: CMakeFiles/qt_ui.dir/SignalSlotProxy.cpp.o
 libqt_ui.so: CMakeFiles/qt_ui.dir/rosWorkList.cpp.o
+libqt_ui.so: CMakeFiles/qt_ui.dir/ros_destination.cpp.o
+libqt_ui.so: CMakeFiles/qt_ui.dir/root/catkin_ws/src/ros_project/src/protobuf_msg/Build/publish_info.pb.cc.o
 libqt_ui.so: CMakeFiles/qt_ui.dir/moc_rosFcuntionbase.cpp.o
 libqt_ui.so: CMakeFiles/qt_ui.dir/build.make
 libqt_ui.so: /usr/lib/x86_64-linux-gnu/libQt5Widgets.so.5.12.8
@@ -164,7 +194,6 @@ libqt_ui.so: /opt/ros/noetic/lib/libactionlib.so
 libqt_ui.so: /opt/ros/noetic/lib/libroscpp.so
 libqt_ui.so: /usr/lib/x86_64-linux-gnu/libpthread.so
 libqt_ui.so: /usr/lib/x86_64-linux-gnu/libboost_chrono.so.1.71.0
-libqt_ui.so: /usr/lib/x86_64-linux-gnu/libboost_filesystem.so.1.71.0
 libqt_ui.so: /opt/ros/noetic/lib/librosconsole.so
 libqt_ui.so: /opt/ros/noetic/lib/librosconsole_log4cxx.so
 libqt_ui.so: /opt/ros/noetic/lib/librosconsole_backend_interface.so
@@ -172,15 +201,22 @@ libqt_ui.so: /usr/lib/x86_64-linux-gnu/liblog4cxx.so
 libqt_ui.so: /usr/lib/x86_64-linux-gnu/libboost_regex.so.1.71.0
 libqt_ui.so: /opt/ros/noetic/lib/libxmlrpcpp.so
 libqt_ui.so: /opt/ros/noetic/lib/libroscpp_serialization.so
+libqt_ui.so: /opt/ros/noetic/lib/libroslib.so
+libqt_ui.so: /opt/ros/noetic/lib/librospack.so
+libqt_ui.so: /usr/lib/x86_64-linux-gnu/libpython3.8.so
+libqt_ui.so: /usr/lib/x86_64-linux-gnu/libboost_filesystem.so.1.71.0
+libqt_ui.so: /usr/lib/x86_64-linux-gnu/libboost_program_options.so.1.71.0
+libqt_ui.so: /usr/lib/x86_64-linux-gnu/libtinyxml2.so
 libqt_ui.so: /opt/ros/noetic/lib/librostime.so
 libqt_ui.so: /usr/lib/x86_64-linux-gnu/libboost_date_time.so.1.71.0
 libqt_ui.so: /opt/ros/noetic/lib/libcpp_common.so
 libqt_ui.so: /usr/lib/x86_64-linux-gnu/libboost_system.so.1.71.0
 libqt_ui.so: /usr/lib/x86_64-linux-gnu/libboost_thread.so.1.71.0
 libqt_ui.so: /usr/lib/x86_64-linux-gnu/libconsole_bridge.so.0.4
+libqt_ui.so: /usr/local/lib/libprotobuf.so
 libqt_ui.so: /usr/lib/x86_64-linux-gnu/libQt5Core.so.5.12.8
 libqt_ui.so: CMakeFiles/qt_ui.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/root/catkin_ws/src/ros_project/src/qt_ui/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Linking CXX shared library libqt_ui.so"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/root/catkin_ws/src/ros_project/src/qt_ui/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Linking CXX shared library libqt_ui.so"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/qt_ui.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

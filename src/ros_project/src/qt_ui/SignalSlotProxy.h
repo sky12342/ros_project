@@ -15,6 +15,7 @@ public slots:
     void publishMessage(const QString& msg);
     void setDestinationSite(const QString& msg);
     void setMap(const QString& msg);
+    void pubDestinationSite(const QString& msg);
 signals:
     void messageReceived(const QString& msg);
 

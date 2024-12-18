@@ -8,6 +8,11 @@
 	"HEADERS" : 
 	[
 		[
+			"/root/catkin_ws/src/ros_project/src/protobuf_msg/Build/publish_info.pb.h",
+			"MU",
+			"P7PC6GT3SW/moc_publish_info.pb.cpp"
+		],
+		[
 			"/root/catkin_ws/src/ros_project/src/qt_ui/SignalSlotProxy.h",
 			"MU",
 			"EWIEGA46WW/moc_SignalSlotProxy.cpp"
@@ -54,17 +59,18 @@
 		"/opt/ros/noetic/include",
 		"/opt/ros/noetic/include/xmlrpcpp",
 		"/root/catkin_ws/src/ros_project/src/qt_ui/build",
+		"/root/catkin_ws/src/ros_project/src/protobuf_msg/Build",
 		"/usr/include/x86_64-linux-gnu/qt5",
 		"/usr/include/x86_64-linux-gnu/qt5/QtWidgets",
 		"/usr/include/x86_64-linux-gnu/qt5/QtGui",
 		"/usr/include/x86_64-linux-gnu/qt5/QtCore",
 		"/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++",
 		"/usr/include",
+		"/usr/local/include",
 		"/usr/include/c++/9",
 		"/usr/include/x86_64-linux-gnu/c++/9",
 		"/usr/include/c++/9/backward",
 		"/usr/lib/gcc/x86_64-linux-gnu/9/include",
-		"/usr/local/include",
 		"/usr/include/x86_64-linux-gnu"
 	],
 	"MOC_MACRO_NAMES" : [ "Q_OBJECT", "Q_GADGET", "Q_NAMESPACE" ],
@@ -90,9 +96,14 @@
 	"SETTINGS_FILE" : "/root/catkin_ws/src/ros_project/src/qt_ui/build/CMakeFiles/qt_ui_autogen.dir/AutogenUsed.txt",
 	"SOURCES" : 
 	[
+		[
+			"/root/catkin_ws/src/ros_project/src/protobuf_msg/Build/publish_info.pb.cc",
+			"MU"
+		],
 		[ "/root/catkin_ws/src/ros_project/src/qt_ui/SignalSlotProxy.cpp", "MU" ],
 		[ "/root/catkin_ws/src/ros_project/src/qt_ui/mainwindow.cpp", "MU" ],
 		[ "/root/catkin_ws/src/ros_project/src/qt_ui/rosWorkList.cpp", "MU" ],
+		[ "/root/catkin_ws/src/ros_project/src/qt_ui/ros_destination.cpp", "MU" ],
 		[ "/root/catkin_ws/src/ros_project/src/qt_ui/ros_worker.cpp", "MU" ]
 	],
 	"UIC_OPTIONS" : [],

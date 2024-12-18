@@ -60,9 +60,11 @@ CMakeFiles/qt_ui_test.dir/main.cpp.o
  /opt/ros/noetic/include/ros/param.h
  /opt/ros/noetic/include/ros/parameter_adapter.h
  /opt/ros/noetic/include/ros/platform.h
+ /opt/ros/noetic/include/ros/protobuf_traits.h
  /opt/ros/noetic/include/ros/publisher.h
  /opt/ros/noetic/include/ros/rate.h
  /opt/ros/noetic/include/ros/ros.h
+ /opt/ros/noetic/include/ros/ros_protobuf.h
  /opt/ros/noetic/include/ros/roscpp_serialization_macros.h
  /opt/ros/noetic/include/ros/rostime_decl.h
  /opt/ros/noetic/include/ros/serialization.h
@@ -95,12 +97,16 @@ CMakeFiles/qt_ui_test.dir/main.cpp.o
  /opt/ros/noetic/include/std_msgs/String.h
  /opt/ros/noetic/include/xmlrpcpp/XmlRpcDecl.h
  /opt/ros/noetic/include/xmlrpcpp/XmlRpcValue.h
+ /root/catkin_ws/src/ros_project/src/protobuf/include/ssr_pkg/protobuf_traits.h
+ /root/catkin_ws/src/ros_project/src/protobuf/include/ssr_pkg/ros_protobuf.h
+ /root/catkin_ws/src/ros_project/src/protobuf_msg/Build/publish_info.pb.h
  /root/catkin_ws/src/ros_project/src/qt_ui/SignalSlotProxy.h
  /root/catkin_ws/src/ros_project/src/qt_ui/main.cpp
  /root/catkin_ws/src/ros_project/src/qt_ui/mainwindow.h
  /root/catkin_ws/src/ros_project/src/qt_ui/rosFcuntionbase.h
  /root/catkin_ws/src/ros_project/src/qt_ui/rosNodeManager.h
  /root/catkin_ws/src/ros_project/src/qt_ui/rosWorkList.h
+ /root/catkin_ws/src/ros_project/src/qt_ui/ros_destination_send.h
  /root/catkin_ws/src/ros_project/src/qt_ui/ros_worker.h
  /usr/include/x86_64-linux-gnu/qt5/QtCore/QCoreApplication
  /usr/include/x86_64-linux-gnu/qt5/QtCore/QLocale

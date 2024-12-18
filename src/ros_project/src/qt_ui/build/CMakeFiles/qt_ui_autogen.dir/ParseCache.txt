@@ -3,11 +3,14 @@
  uic:./ui_mainwindow.h
 /root/catkin_ws/src/ros_project/src/qt_ui/ros_worker.cpp
 /root/catkin_ws/src/ros_project/src/qt_ui/SignalSlotProxy.cpp
+/root/catkin_ws/src/ros_project/src/qt_ui/ros_destination.cpp
 /root/catkin_ws/src/ros_project/src/qt_ui/ros_worker.h
  mmc:Q_OBJECT
-/root/catkin_ws/src/ros_project/src/qt_ui/mainwindow.h
- mmc:Q_OBJECT
 /root/catkin_ws/src/ros_project/src/qt_ui/rosWorkList.cpp
+/root/catkin_ws/src/ros_project/src/protobuf_msg/Build/publish_info.pb.cc
 /root/catkin_ws/src/ros_project/src/qt_ui/rosWorkList.h
 /root/catkin_ws/src/ros_project/src/qt_ui/SignalSlotProxy.h
  mmc:Q_OBJECT
+/root/catkin_ws/src/ros_project/src/qt_ui/mainwindow.h
+ mmc:Q_OBJECT
+/root/catkin_ws/src/ros_project/src/protobuf_msg/Build/publish_info.pb.h

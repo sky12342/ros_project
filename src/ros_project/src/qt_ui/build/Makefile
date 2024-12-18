@@ -1018,6 +1018,33 @@ qt_ui_test_autogen/mocs_compilation.cpp.s:
 	$(MAKE) -f CMakeFiles/qt_ui_test.dir/build.make CMakeFiles/qt_ui_test.dir/qt_ui_test_autogen/mocs_compilation.cpp.s
 .PHONY : qt_ui_test_autogen/mocs_compilation.cpp.s
 
+root/catkin_ws/src/ros_project/src/protobuf_msg/Build/publish_info.pb.o: root/catkin_ws/src/ros_project/src/protobuf_msg/Build/publish_info.pb.cc.o
+
+.PHONY : root/catkin_ws/src/ros_project/src/protobuf_msg/Build/publish_info.pb.o
+
+# target to build an object file
+root/catkin_ws/src/ros_project/src/protobuf_msg/Build/publish_info.pb.cc.o:
+	$(MAKE) -f CMakeFiles/qt_ui.dir/build.make CMakeFiles/qt_ui.dir/root/catkin_ws/src/ros_project/src/protobuf_msg/Build/publish_info.pb.cc.o
+.PHONY : root/catkin_ws/src/ros_project/src/protobuf_msg/Build/publish_info.pb.cc.o
+
+root/catkin_ws/src/ros_project/src/protobuf_msg/Build/publish_info.pb.i: root/catkin_ws/src/ros_project/src/protobuf_msg/Build/publish_info.pb.cc.i
+
+.PHONY : root/catkin_ws/src/ros_project/src/protobuf_msg/Build/publish_info.pb.i
+
+# target to preprocess a source file
+root/catkin_ws/src/ros_project/src/protobuf_msg/Build/publish_info.pb.cc.i:
+	$(MAKE) -f CMakeFiles/qt_ui.dir/build.make CMakeFiles/qt_ui.dir/root/catkin_ws/src/ros_project/src/protobuf_msg/Build/publish_info.pb.cc.i
+.PHONY : root/catkin_ws/src/ros_project/src/protobuf_msg/Build/publish_info.pb.cc.i
+
+root/catkin_ws/src/ros_project/src/protobuf_msg/Build/publish_info.pb.s: root/catkin_ws/src/ros_project/src/protobuf_msg/Build/publish_info.pb.cc.s
+
+.PHONY : root/catkin_ws/src/ros_project/src/protobuf_msg/Build/publish_info.pb.s
+
+# target to generate assembly for a file
+root/catkin_ws/src/ros_project/src/protobuf_msg/Build/publish_info.pb.cc.s:
+	$(MAKE) -f CMakeFiles/qt_ui.dir/build.make CMakeFiles/qt_ui.dir/root/catkin_ws/src/ros_project/src/protobuf_msg/Build/publish_info.pb.cc.s
+.PHONY : root/catkin_ws/src/ros_project/src/protobuf_msg/Build/publish_info.pb.cc.s
+
 rosWorkList.o: rosWorkList.cpp.o
 
 .PHONY : rosWorkList.o
@@ -1044,6 +1071,33 @@ rosWorkList.s: rosWorkList.cpp.s
 rosWorkList.cpp.s:
 	$(MAKE) -f CMakeFiles/qt_ui.dir/build.make CMakeFiles/qt_ui.dir/rosWorkList.cpp.s
 .PHONY : rosWorkList.cpp.s
+
+ros_destination.o: ros_destination.cpp.o
+
+.PHONY : ros_destination.o
+
+# target to build an object file
+ros_destination.cpp.o:
+	$(MAKE) -f CMakeFiles/qt_ui.dir/build.make CMakeFiles/qt_ui.dir/ros_destination.cpp.o
+.PHONY : ros_destination.cpp.o
+
+ros_destination.i: ros_destination.cpp.i
+
+.PHONY : ros_destination.i
+
+# target to preprocess a source file
+ros_destination.cpp.i:
+	$(MAKE) -f CMakeFiles/qt_ui.dir/build.make CMakeFiles/qt_ui.dir/ros_destination.cpp.i
+.PHONY : ros_destination.cpp.i
+
+ros_destination.s: ros_destination.cpp.s
+
+.PHONY : ros_destination.s
+
+# target to generate assembly for a file
+ros_destination.cpp.s:
+	$(MAKE) -f CMakeFiles/qt_ui.dir/build.make CMakeFiles/qt_ui.dir/ros_destination.cpp.s
+.PHONY : ros_destination.cpp.s
 
 ros_worker.o: ros_worker.cpp.o
 
@@ -1156,9 +1210,15 @@ help:
 	@echo "... qt_ui_test_autogen/mocs_compilation.o"
 	@echo "... qt_ui_test_autogen/mocs_compilation.i"
 	@echo "... qt_ui_test_autogen/mocs_compilation.s"
+	@echo "... root/catkin_ws/src/ros_project/src/protobuf_msg/Build/publish_info.pb.o"
+	@echo "... root/catkin_ws/src/ros_project/src/protobuf_msg/Build/publish_info.pb.i"
+	@echo "... root/catkin_ws/src/ros_project/src/protobuf_msg/Build/publish_info.pb.s"
 	@echo "... rosWorkList.o"
 	@echo "... rosWorkList.i"
 	@echo "... rosWorkList.s"
+	@echo "... ros_destination.o"
+	@echo "... ros_destination.i"
+	@echo "... ros_destination.s"
 	@echo "... ros_worker.o"
 	@echo "... ros_worker.i"
 	@echo "... ros_worker.s"

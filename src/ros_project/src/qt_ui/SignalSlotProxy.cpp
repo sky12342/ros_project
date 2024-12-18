@@ -22,6 +22,13 @@ void SignalSlotProxy::setDestinationSite(const QString& msg){
         qWarning() << "ROS Node is not initialized!";
     }
 }
+void SignalSlotProxy::pubDestinationSite(const QString& msg){
+    if (rosNode_) {
+        rosNode_->getPbMsg(msg);
+    } else {
+        qWarning() << "ROS Node is not initialized!";
+    }
+}
 void SignalSlotProxy::setMap(const QString& msg){
     if (rosNode_) {
         rosNode_->notify_map(msg);

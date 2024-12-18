@@ -1,0 +1,1 @@
+/usr/bin/c++ -fPIC   -shared -Wl,-soname,libpb_proto.so -o libpb_proto.so CMakeFiles/pb_proto.dir/publish_info.pb.o   -L/usr/local/lib  -Wl,-rpath,/usr/local/lib /usr/local/lib/libprotobuf.so -lpthread 

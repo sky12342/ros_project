@@ -2,7 +2,7 @@
 	"artifacts" : 
 	[
 		{
-			"path" : "qt_ui_test"
+			"path" : "libqt_ui.so"
 		}
 	],
 	"backtrace" : 1,
@@ -10,7 +10,7 @@
 	{
 		"commands" : 
 		[
-			"add_executable",
+			"add_library",
 			"target_link_libraries",
 			"add_definitions",
 			"include",
@@ -36,13 +36,13 @@
 			{
 				"command" : 0,
 				"file" : 0,
-				"line" : 43,
+				"line" : 51,
 				"parent" : 0
 			},
 			{
 				"command" : 1,
 				"file" : 0,
-				"line" : 56,
+				"line" : 67,
 				"parent" : 0
 			},
 			{
@@ -122,7 +122,7 @@
 			{
 				"command" : 6,
 				"file" : 0,
-				"line" : 23,
+				"line" : 25,
 				"parent" : 0
 			}
 		]
@@ -133,7 +133,7 @@
 			"compileCommandFragments" : 
 			[
 				{
-					"fragment" : " "
+					"fragment" : "-fPIC  "
 				},
 				{
 					"backtrace" : 2,
@@ -169,13 +169,16 @@
 				{
 					"backtrace" : 16,
 					"define" : "ROS_PACKAGE_NAME=\"qt_ui\""
+				},
+				{
+					"define" : "qt_ui_EXPORTS"
 				}
 			],
 			"includes" : 
 			[
 				{
 					"backtrace" : 0,
-					"path" : "/root/catkin_ws/src/ros_project/src/qt_ui/build/qt_ui_test_autogen/include"
+					"path" : "/root/catkin_ws/src/ros_project/src/qt_ui/build/qt_ui_autogen/include"
 				},
 				{
 					"backtrace" : 17,
@@ -188,6 +191,10 @@
 				{
 					"backtrace" : 17,
 					"path" : "/root/catkin_ws/src/ros_project/src/qt_ui/build"
+				},
+				{
+					"backtrace" : 17,
+					"path" : "/root/catkin_ws/src/ros_project/src/protobuf_msg/Build"
 				},
 				{
 					"backtrace" : 2,
@@ -219,121 +226,44 @@
 			"sourceIndexes" : 
 			[
 				0,
-				1
+				1,
+				2,
+				3,
+				4,
+				5,
+				6,
+				7
 			]
 		}
 	],
 	"dependencies" : 
 	[
 		{
-			"backtrace" : 2,
-			"id" : "qt_ui::@6890427a1f51a3e7e1df"
-		},
-		{
 			"backtrace" : 0,
-			"id" : "qt_ui_test_autogen::@6890427a1f51a3e7e1df"
+			"id" : "qt_ui_autogen::@6890427a1f51a3e7e1df"
 		}
 	],
-	"id" : "qt_ui_test::@6890427a1f51a3e7e1df",
+	"id" : "qt_ui::@6890427a1f51a3e7e1df",
 	"link" : 
 	{
 		"commandFragments" : 
 		[
 			{
-				"fragment" : "-rdynamic",
+				"fragment" : "",
 				"role" : "flags"
 			},
 			{
-				"fragment" : "-Wl,-rpath,/root/catkin_ws/src/ros_project/src/qt_ui/build:/opt/ros/noetic/lib",
+				"fragment" : "-Wl,-rpath,/opt/ros/noetic/lib:/usr/local/lib",
 				"role" : "libraries"
 			},
 			{
 				"backtrace" : 2,
-				"fragment" : "libqt_ui.so",
-				"role" : "libraries"
-			},
-			{
-				"fragment" : "/opt/ros/noetic/lib/libactionlib.so",
-				"role" : "libraries"
-			},
-			{
-				"fragment" : "/opt/ros/noetic/lib/libroscpp.so",
-				"role" : "libraries"
-			},
-			{
-				"fragment" : "-lpthread",
-				"role" : "libraries"
-			},
-			{
-				"fragment" : "/usr/lib/x86_64-linux-gnu/libboost_chrono.so.1.71.0",
-				"role" : "libraries"
-			},
-			{
-				"fragment" : "/usr/lib/x86_64-linux-gnu/libboost_filesystem.so.1.71.0",
-				"role" : "libraries"
-			},
-			{
-				"fragment" : "/opt/ros/noetic/lib/librosconsole.so",
-				"role" : "libraries"
-			},
-			{
-				"fragment" : "/opt/ros/noetic/lib/librosconsole_log4cxx.so",
-				"role" : "libraries"
-			},
-			{
-				"fragment" : "/opt/ros/noetic/lib/librosconsole_backend_interface.so",
-				"role" : "libraries"
-			},
-			{
-				"fragment" : "-llog4cxx",
-				"role" : "libraries"
-			},
-			{
-				"fragment" : "/usr/lib/x86_64-linux-gnu/libboost_regex.so.1.71.0",
-				"role" : "libraries"
-			},
-			{
-				"fragment" : "/opt/ros/noetic/lib/libxmlrpcpp.so",
-				"role" : "libraries"
-			},
-			{
-				"fragment" : "/opt/ros/noetic/lib/libroscpp_serialization.so",
-				"role" : "libraries"
-			},
-			{
-				"fragment" : "/opt/ros/noetic/lib/librostime.so",
-				"role" : "libraries"
-			},
-			{
-				"fragment" : "/usr/lib/x86_64-linux-gnu/libboost_date_time.so.1.71.0",
-				"role" : "libraries"
-			},
-			{
-				"fragment" : "/opt/ros/noetic/lib/libcpp_common.so",
-				"role" : "libraries"
-			},
-			{
-				"fragment" : "/usr/lib/x86_64-linux-gnu/libboost_system.so.1.71.0",
-				"role" : "libraries"
-			},
-			{
-				"fragment" : "/usr/lib/x86_64-linux-gnu/libboost_thread.so.1.71.0",
-				"role" : "libraries"
-			},
-			{
-				"fragment" : "/usr/lib/x86_64-linux-gnu/libconsole_bridge.so.0.4",
-				"role" : "libraries"
-			},
-			{
 				"fragment" : "/usr/lib/x86_64-linux-gnu/libQt5Widgets.so.5.12.8",
 				"role" : "libraries"
 			},
 			{
+				"backtrace" : 2,
 				"fragment" : "/usr/lib/x86_64-linux-gnu/libQt5Gui.so.5.12.8",
-				"role" : "libraries"
-			},
-			{
-				"fragment" : "/usr/lib/x86_64-linux-gnu/libQt5Core.so.5.12.8",
 				"role" : "libraries"
 			},
 			{
@@ -357,10 +287,6 @@
 				"role" : "libraries"
 			},
 			{
-				"fragment" : "/usr/lib/x86_64-linux-gnu/libboost_filesystem.so.1.71.0",
-				"role" : "libraries"
-			},
-			{
 				"fragment" : "/opt/ros/noetic/lib/librosconsole.so",
 				"role" : "libraries"
 			},
@@ -389,6 +315,30 @@
 				"role" : "libraries"
 			},
 			{
+				"fragment" : "/opt/ros/noetic/lib/libroslib.so",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/opt/ros/noetic/lib/librospack.so",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "-lpython3.8",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/usr/lib/x86_64-linux-gnu/libboost_filesystem.so.1.71.0",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/usr/lib/x86_64-linux-gnu/libboost_program_options.so.1.71.0",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "-ltinyxml2",
+				"role" : "libraries"
+			},
+			{
 				"fragment" : "/opt/ros/noetic/lib/librostime.so",
 				"role" : "libraries"
 			},
@@ -411,12 +361,25 @@
 			{
 				"fragment" : "/usr/lib/x86_64-linux-gnu/libconsole_bridge.so.0.4",
 				"role" : "libraries"
+			},
+			{
+				"fragment" : "/usr/local/lib/libprotobuf.so",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "-lpthread",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "/usr/lib/x86_64-linux-gnu/libQt5Core.so.5.12.8",
+				"role" : "libraries"
 			}
 		],
 		"language" : "CXX"
 	},
-	"name" : "qt_ui_test",
-	"nameOnDisk" : "qt_ui_test",
+	"name" : "qt_ui",
+	"nameOnDisk" : "libqt_ui.so",
 	"paths" : 
 	{
 		"build" : ".",
@@ -429,7 +392,20 @@
 			"sourceIndexes" : 
 			[
 				0,
-				1
+				1,
+				2,
+				3,
+				4,
+				5,
+				6,
+				7
+			]
+		},
+		{
+			"name" : "CMake Rules",
+			"sourceIndexes" : 
+			[
+				8
 			]
 		}
 	],
@@ -439,15 +415,58 @@
 			"backtrace" : 0,
 			"compileGroupIndex" : 0,
 			"isGenerated" : true,
-			"path" : "build/qt_ui_test_autogen/mocs_compilation.cpp",
+			"path" : "build/qt_ui_autogen/mocs_compilation.cpp",
 			"sourceGroupIndex" : 0
 		},
 		{
 			"backtrace" : 1,
 			"compileGroupIndex" : 0,
-			"path" : "main.cpp",
+			"path" : "mainwindow.cpp",
 			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "ros_worker.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "SignalSlotProxy.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "rosWorkList.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "ros_destination.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "/root/catkin_ws/src/ros_project/src/protobuf_msg/Build/publish_info.pb.cc",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"isGenerated" : true,
+			"path" : "build/moc_rosFcuntionbase.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/moc_rosFcuntionbase.cpp.rule",
+			"sourceGroupIndex" : 1
 		}
 	],
-	"type" : "EXECUTABLE"
+	"type" : "SHARED_LIBRARY"
 }

@@ -99,7 +99,6 @@ qt_ui_test: /opt/ros/noetic/lib/libactionlib.so
 qt_ui_test: /opt/ros/noetic/lib/libroscpp.so
 qt_ui_test: /usr/lib/x86_64-linux-gnu/libpthread.so
 qt_ui_test: /usr/lib/x86_64-linux-gnu/libboost_chrono.so.1.71.0
-qt_ui_test: /usr/lib/x86_64-linux-gnu/libboost_filesystem.so.1.71.0
 qt_ui_test: /opt/ros/noetic/lib/librosconsole.so
 qt_ui_test: /opt/ros/noetic/lib/librosconsole_log4cxx.so
 qt_ui_test: /opt/ros/noetic/lib/librosconsole_backend_interface.so
@@ -107,6 +106,12 @@ qt_ui_test: /usr/lib/x86_64-linux-gnu/liblog4cxx.so
 qt_ui_test: /usr/lib/x86_64-linux-gnu/libboost_regex.so.1.71.0
 qt_ui_test: /opt/ros/noetic/lib/libxmlrpcpp.so
 qt_ui_test: /opt/ros/noetic/lib/libroscpp_serialization.so
+qt_ui_test: /opt/ros/noetic/lib/libroslib.so
+qt_ui_test: /opt/ros/noetic/lib/librospack.so
+qt_ui_test: /usr/lib/x86_64-linux-gnu/libpython3.8.so
+qt_ui_test: /usr/lib/x86_64-linux-gnu/libboost_filesystem.so.1.71.0
+qt_ui_test: /usr/lib/x86_64-linux-gnu/libboost_program_options.so.1.71.0
+qt_ui_test: /usr/lib/x86_64-linux-gnu/libtinyxml2.so
 qt_ui_test: /opt/ros/noetic/lib/librostime.so
 qt_ui_test: /usr/lib/x86_64-linux-gnu/libboost_date_time.so.1.71.0
 qt_ui_test: /opt/ros/noetic/lib/libcpp_common.so
@@ -120,7 +125,6 @@ qt_ui_test: /opt/ros/noetic/lib/libactionlib.so
 qt_ui_test: /opt/ros/noetic/lib/libroscpp.so
 qt_ui_test: /usr/lib/x86_64-linux-gnu/libpthread.so
 qt_ui_test: /usr/lib/x86_64-linux-gnu/libboost_chrono.so.1.71.0
-qt_ui_test: /usr/lib/x86_64-linux-gnu/libboost_filesystem.so.1.71.0
 qt_ui_test: /opt/ros/noetic/lib/librosconsole.so
 qt_ui_test: /opt/ros/noetic/lib/librosconsole_log4cxx.so
 qt_ui_test: /opt/ros/noetic/lib/librosconsole_backend_interface.so
@@ -128,12 +132,19 @@ qt_ui_test: /usr/lib/x86_64-linux-gnu/liblog4cxx.so
 qt_ui_test: /usr/lib/x86_64-linux-gnu/libboost_regex.so.1.71.0
 qt_ui_test: /opt/ros/noetic/lib/libxmlrpcpp.so
 qt_ui_test: /opt/ros/noetic/lib/libroscpp_serialization.so
+qt_ui_test: /opt/ros/noetic/lib/libroslib.so
+qt_ui_test: /opt/ros/noetic/lib/librospack.so
+qt_ui_test: /usr/lib/x86_64-linux-gnu/libpython3.8.so
+qt_ui_test: /usr/lib/x86_64-linux-gnu/libboost_filesystem.so.1.71.0
+qt_ui_test: /usr/lib/x86_64-linux-gnu/libboost_program_options.so.1.71.0
+qt_ui_test: /usr/lib/x86_64-linux-gnu/libtinyxml2.so
 qt_ui_test: /opt/ros/noetic/lib/librostime.so
 qt_ui_test: /usr/lib/x86_64-linux-gnu/libboost_date_time.so.1.71.0
 qt_ui_test: /opt/ros/noetic/lib/libcpp_common.so
 qt_ui_test: /usr/lib/x86_64-linux-gnu/libboost_system.so.1.71.0
 qt_ui_test: /usr/lib/x86_64-linux-gnu/libboost_thread.so.1.71.0
 qt_ui_test: /usr/lib/x86_64-linux-gnu/libconsole_bridge.so.0.4
+qt_ui_test: /usr/local/lib/libprotobuf.so
 qt_ui_test: CMakeFiles/qt_ui_test.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/root/catkin_ws/src/ros_project/src/qt_ui/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable qt_ui_test"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/qt_ui_test.dir/link.txt --verbose=$(VERBOSE)

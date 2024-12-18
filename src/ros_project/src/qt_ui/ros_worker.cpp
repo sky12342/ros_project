@@ -23,12 +23,27 @@ RosWorker::~RosWorker(){
         ros::shutdown();
         ros::waitForShutdown();
     }
+    if(umap.isExist(node_name_))
     umap.del(ros_id_);
 }
 string RosWorker::getID(){
     return ros_id_;
 }
-
+void RosWorker::onPbCallback(const ros::MessageEvent<Destination::site::PublishInfo> &msg){
+    std::lock_guard<mutex> lock(mtx_);
+    bool flag =false;
+    if(pbmsgs.empty()){
+        flag = true;
+    }
+    pbmsgs.emplace(msg.getMessage());
+    auto msgs = msg.getMessage();
+    std::ofstream logFile("debug_log.txt", std::ios::app);
+    logFile<<"protobuf is receive"<<msgs->destination_x()<<msgs->destination_y()<<endl;
+    if(!flag){
+    return ; 
+    }
+    cv_.notify_one();
+}
 void RosWorker::setNodeName(const std::string & name){    
     node_name_ = name;
 }
@@ -46,6 +61,7 @@ void RosWorker::init(){
     goal_.target_pose.pose.position.x = 0;
     goal_.target_pose.pose.position.y = 0;
     goal_.target_pose.pose.orientation.w = 1;
+    sub_ = nh_->subscribe(topic_name_,1000,&RosWorker::onPbCallback,this);
     // LOG(INFO)<<"RosWorker init sucess!!!!\n"<<endl;
 }
 void RosWorker::setTopic(const string & name,const int len,const bool latch ){
@@ -61,14 +77,34 @@ void RosWorker::pubMsg(const QString & msg){
 void RosWorker::callback_strMsg(const std_msgs::String & msg){
     emit signal_strMsg(QString::fromStdString(msg.data));
 }
+void RosWorker::spin(){
+ros::Rate rate(10);
+while(ros::ok()){
+ros::spin();
+rate.sleep();
+}
+}
 void RosWorker::run()
 {   std::ofstream logFile("debug_log.txt", std::ios::app);
     ros::Rate rate(10); // 10Hz 频率
     logFile << "run is running!!!goal_received: " << destination_x_ << ", " << destination_y_ << std::endl;
     while(ros::ok()) 
-    {
-        logFile << "went into while goal_received: " << destination_x_ << ", " << destination_y_ << std::endl;
+    {  
+        unique_lock<mutex>lock(mtx_,std::defer_lock) ;
+        lock.lock();
+        cv_.wait(lock,[this](){
+            return !pbmsgs.empty();
+        });
         // 等待 move_base action server 准备就绪
+        auto tmp = pbmsgs.front();
+        pbmsgs.pop();
+        
+        destination_x_ = tmp->destination_x();
+        destination_y_ = tmp->destination_y();
+        logFile << "protobufmsg is seted: " << destination_x_ << ", " << destination_y_ << std::endl;
+        
+
+        lock.unlock();
         while (!ac_->waitForServer(ros::Duration(5.0))) {
             ROS_INFO("Waiting for the move base action server to come up!!!\n");
         }
@@ -77,11 +113,7 @@ void RosWorker::run()
         goal_.target_pose.pose.position.x = destination_x_;
         goal_.target_pose.pose.position.y = destination_y_;
         goal_.target_pose.pose.orientation.w = 1.0;  // 设置姿态方向，通常默认为1，表示目标是朝上的
-        std::ofstream logFile("debug_log.txt", std::ios::app);
-    if (logFile.is_open()) {
-        logFile << "goal_received: " << destination_x_ << ", " << destination_y_ << std::endl;
-        
-    }
+        logFile << "goal_.target_pose.pose.position: " << goal_.target_pose.pose.position.x << ", " << goal_.target_pose.pose.position.y << std::endl;
         // 发送目标
         ac_->sendGoal(goal_);
 
@@ -97,9 +129,8 @@ void RosWorker::run()
         }
 
         // 继续执行ros回调处理
-        ros::spinOnce();
-        
-        rate.sleep(); // 保持10Hz频率
+
+        rate.sleep(); // 保持10Hz频率)
     }
     logFile.close();
 }

@@ -12,7 +12,7 @@ public:
     void run();
     void init(std::string name,int max_len);
     std::shared_ptr<RosFunBase> getNode() const;
-
+    void spin();
 private:
     FunList& fl_;
     int argc_;
@@ -25,6 +25,12 @@ private:
 template <typename T>
 RosNodeManager<T>::RosNodeManager(int argc, char** argv, const std::string& node_name)
     : fl_(FunList::getInstance()), argc_(argc), argv_(argv), node_name_(node_name){
+}
+
+
+template <typename T>
+void RosNodeManager<T>::spin(){
+    node_->spin();
 }
 
 template <typename T>

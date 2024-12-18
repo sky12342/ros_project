@@ -1,7 +1,7 @@
-#include"/root/catkin_ws/src/ssr_pkg/include/ssr_pkg/protobuf_traits.h"
-#include "/root/catkin_ws/src/ssr_pkg/include/ssr_pkg/ros_protobuf.h"
+#include"/root/catkin_ws/src/ros_project/src/protobuf/include/ssr_pkg/message_traits.h"
+#include "../protobuf/include/ros_protobuf.h"
 #include "ros/ros.h"
-#include "/root/Protobuf/Build/publish_info.pb.h"
+#include "../protobuf_message/Build/publish_info.pb.h"
 int main(int argc, char **argv) {
   ros::init(argc, argv, "protobuf_talker");
   ros::console::set_logger_level(ROSCONSOLE_DEFAULT_NAME,

@@ -422,7 +422,7 @@
 				{
 					"directoryIndex" : 0,
 					"id" : "qt_ui::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-qt_ui-6430dc095d3e7bc4bdf0.json",
+					"jsonFile" : "target-qt_ui-8858bb5c8166ae4fe8b6.json",
 					"name" : "qt_ui",
 					"projectIndex" : 0
 				},
@@ -436,7 +436,7 @@
 				{
 					"directoryIndex" : 0,
 					"id" : "qt_ui_test::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-qt_ui_test-1a331d6301f1f5c5df89.json",
+					"jsonFile" : "target-qt_ui_test-36f5019304ef2f09bdfc.json",
 					"name" : "qt_ui_test",
 					"projectIndex" : 0
 				},

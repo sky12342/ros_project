@@ -33,10 +33,8 @@ std::shared_ptr<RosFunBase> FunList::get(std::string name) {
     if (ros_fun_map.find(ros_id) == ros_fun_map.end()) {
         return nullptr;  // 如果没有找到对应的 ros_id，返回 nullptr
     }
-
     return ros_fun_map[ros_id];
 }
-
     void FunList::addStringname(const std::string &name1,const std::string &name2){
         ros_name_map.insert(std::make_pair(name1,name2));
     }
