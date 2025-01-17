@@ -1,0 +1,13 @@
+{
+    "clients": [
+        {
+            "service_id": 4660,        
+            "instance_id": 22136,      
+            "method_id": 3988,         
+            "protocol": "tcp",         
+            "server_ip": "127.0.0.1",  
+            "server_port": 8080,       
+            "timeout": 3000            
+        }
+    ]
+}

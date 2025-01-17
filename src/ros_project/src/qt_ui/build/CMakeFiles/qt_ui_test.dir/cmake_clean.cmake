@@ -3,7 +3,9 @@ file(REMOVE_RECURSE
   "CMakeFiles/qt_ui_test_autogen.dir/ParseCache.txt"
   "qt_ui_test_autogen"
   "CMakeFiles/qt_ui_test.dir/main.cpp.o"
+  "CMakeFiles/qt_ui_test.dir/main.cpp.o.d"
   "CMakeFiles/qt_ui_test.dir/qt_ui_test_autogen/mocs_compilation.cpp.o"
+  "CMakeFiles/qt_ui_test.dir/qt_ui_test_autogen/mocs_compilation.cpp.o.d"
   "qt_ui_test"
   "qt_ui_test.pdb"
 )

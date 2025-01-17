@@ -1,0 +1,32 @@
+module state_and_error {
+    // 机器人状态信息
+    @extensibility(MUTABLE)
+    struct State {
+        int32 status;                  // Move_base 状态 (PENDING=0, ACTIVE=1, SUCCEEDED=3, etc.)
+        double current_x;              // 当前 x 坐标
+        double current_y;              // 当前 y 坐标
+        double current_theta;          // 当前方向 (弧度)
+        double linear_velocity;        // 当前线速度
+        double angular_velocity;       // 当前角速度
+        string feedback_message;       // 额外的反馈信息
+    };
+
+    // 错误码请求
+    @extensibility(MUTABLE)
+    struct ErrorCode {
+        string code;                   // 错误码 (如 "1001", "1002")
+    };
+
+    // 错误码解析响应
+    @extensibility(MUTABLE)
+    struct ErrorCodeReply {
+        string description;            // 错误码的解析描述
+        string suggestion;             // 修复建议
+    };
+
+    // 错误处理接口
+    interface ErrorHandle {
+        
+        ErrorCodeReply analyze_error(in ErrorCode error);
+    };
+};

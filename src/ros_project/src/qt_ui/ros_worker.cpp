@@ -31,13 +31,17 @@ string RosWorker::getID(){
 }
 void RosWorker::onPbCallback(const ros::MessageEvent<Destination::site::PublishInfo> &msg){
     std::lock_guard<mutex> lock(mtx_);
+    std::ofstream logFile("debug_log.txt", std::ios::app);
     bool flag =false;
     if(pbmsgs.empty()){
         flag = true;
     }
+    if(pbmsgs.size()>MAX_SITE_LENTH){
+    logFile<<"protobuf is receive length is over"<<MAX_SITE_LENTH<<"over message is be given up"<<endl;
+    return ;
+    }
     pbmsgs.emplace(msg.getMessage());
     auto msgs = msg.getMessage();
-    std::ofstream logFile("debug_log.txt", std::ios::app);
     logFile<<"protobuf is receive"<<msgs->destination_x()<<msgs->destination_y()<<endl;
     if(!flag){
     return ; 

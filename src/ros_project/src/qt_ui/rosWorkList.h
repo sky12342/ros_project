@@ -8,7 +8,6 @@
 #include<thread>
 class RosFunBase;
 class FunList{
-
 protected:
     FunList();
     ~FunList();

@@ -2,12 +2,15 @@
 #include"rosFcuntionbase.h"
 #include<ros/ros.h>
 #include<string>
+#include<thread>
 #include<boost/uuid/uuid.hpp>
 #include<boost/uuid/random_generator.hpp>
 #include<boost/uuid/uuid_io.hpp>
 #include<queue>
 #include<memory>
 #include<mutex>
+#include<atomic>
+#include"destinatoinSiteBuffer.h"
 #include<condition_variable>
 #include"../protobuf_msg/Build/publish_info.pb.h"
 #include"../protobuf/include/ssr_pkg/protobuf_traits.h"
@@ -21,8 +24,8 @@ public:
     void setTopic(const std::string & name,const int len,const bool latch = false );
     std::string getID();
     void spin(){};
-public slots:
-    void getPbMsg(const QString &msg );
+    void call();
+    void getPbMsg();
 private:
     ros::Publisher pb_;
     ros::Subscriber sub_;
@@ -41,4 +44,9 @@ private:
     std::mutex mtx_;
     std::mutex mtx2_;
     std::condition_variable cv_;
+    std::condition_variable queue_cv_;
+    std::queue<std::pair<int, int>> site_buffer_;
+    std::atomic<bool> stop_flag_;
+    std::shared_ptr<DestinationSiteBuffer> origin_buffer_;
+    std::thread th_;
 };

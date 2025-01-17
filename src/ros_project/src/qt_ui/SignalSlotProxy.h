@@ -3,7 +3,7 @@
 #include <QObject>
 #include <memory>
 #include "ros_worker.h"
-
+#include"destinatoinSiteBuffer.h"
 class SignalSlotProxy : public QObject {
     Q_OBJECT
 
@@ -18,7 +18,7 @@ public slots:
     void pubDestinationSite(const QString& msg);
 signals:
     void messageReceived(const QString& msg);
-
 private:
     std::shared_ptr<RosFunBase> rosNode_;
+    shared_ptr<DestinationSiteBuffer> origin_buffer_;
 };

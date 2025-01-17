@@ -8,6 +8,7 @@
 #include"../protobuf_msg/Build/publish_info.pb.h"
 #include<mutex>
 #include<condition_variable>
+#include"const.h"
 typedef actionlib::SimpleActionClient<move_base_msgs::MoveBaseAction> MoveBaseClient;
 class RosWorker:public RosFunBase,public std::enable_shared_from_this<RosWorker>{
     Q_OBJECT

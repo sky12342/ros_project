@@ -17,6 +17,7 @@ public:
     virtual void callback_strMsg(const std_msgs::String &msg){};
     virtual std::string getID(){};
     virtual void run()=0;
+    virtual void call(){};
     virtual void spin(){};
     RosFunBase() : umap(FunList::getInstance()) {
     // 构造函数实现

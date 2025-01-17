@@ -8,6 +8,7 @@
 #include "rosNodeManager.h"
 #include "SignalSlotProxy.h"
 #include "ros_destination_send.h"
+#include "../dds/dds_destination/destination_receive.h"
 // #include "common.h"
 // #include "Log.h"
 
@@ -51,6 +52,7 @@ private:
     std::unique_ptr<RosNodeManager<RosWorker>> ros_manager_;
     std::unique_ptr<RosNodeManager<RosDestinationSender>> Destinatoin_node_manager_;
     std::unique_ptr<SignalSlotProxy> signal_slot_proxy_;  // 代理类
+    std::shared_ptr<DestinationSubscrip> dds_sub_;
     // Common common_log_;
     // MyLog* myLog_;
     FunList& rosmap_;

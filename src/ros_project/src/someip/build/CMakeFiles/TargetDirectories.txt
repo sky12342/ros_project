@@ -1,0 +1,8 @@
+/root/catkin_ws/src/ros_project/src/someip/build/CMakeFiles/client.dir
+/root/catkin_ws/src/ros_project/src/someip/build/CMakeFiles/server.dir
+/root/catkin_ws/src/ros_project/src/someip/build/CMakeFiles/edit_cache.dir
+/root/catkin_ws/src/ros_project/src/someip/build/CMakeFiles/rebuild_cache.dir
+/root/catkin_ws/src/ros_project/src/someip/build/CMakeFiles/list_install_components.dir
+/root/catkin_ws/src/ros_project/src/someip/build/CMakeFiles/install.dir
+/root/catkin_ws/src/ros_project/src/someip/build/CMakeFiles/install/local.dir
+/root/catkin_ws/src/ros_project/src/someip/build/CMakeFiles/install/strip.dir

@@ -1,0 +1,6 @@
+module Destination {
+    struct Destination_site {
+        int32 x;
+        int32 y;
+    };
+};

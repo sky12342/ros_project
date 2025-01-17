@@ -4,12 +4,14 @@
 #include <QDebug>
 #include<unistd.h>
 #include<ros/ros.h>
+#include"../dds/dds_destination/destination_receive.h"
 MainWindow::MainWindow(int argc, char** argv, QWidget* parent)
     : QMainWindow(parent)
     , ui_(new Ui::MainWindow)
     , ros_manager_(std::make_unique<RosNodeManager<RosWorker>>(argc, argv, "testnode"))
     , Destinatoin_node_manager_(std::make_unique<RosNodeManager<RosDestinationSender>>(argc, argv, "Destination_node"))
     , rosmap_(FunList::getInstance())
+    , dds_sub_(std::make_shared<DestinationSubscrip>())
 {
     ui_->setupUi(this);
 
@@ -21,7 +23,7 @@ MainWindow::MainWindow(int argc, char** argv, QWidget* parent)
         }
         process1 = nullptr;  
         process2 = nullptr;
-
+        dds_sub_->init();
         ros_manager_->init("/Destination", 1024);
         Destinatoin_node_manager_->init("/Destination",1024);
         auto ros_worker = ros_manager_->getNode();
@@ -129,6 +131,9 @@ void MainWindow::on_navigateion_to_point_clicked()
 }));
     rosmap_.threads_.emplace_back(std::make_shared<std::thread>([this]() {
     ros_manager_->spin();  
+}));
+    rosmap_.threads_.emplace_back(std::make_shared<std::thread>([this]() {
+    dds_sub_->run();  
 }));
     nv_point = false;
 }

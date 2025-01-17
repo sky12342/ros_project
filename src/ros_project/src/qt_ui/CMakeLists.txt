@@ -1,6 +1,8 @@
-cmake_minimum_required(VERSION 3.0.2)
-project(qt_ui)
+cmake_minimum_required(VERSION 3.10)
+project(qt_ui LANGUAGES CXX)
 
+set(CMAKE_CXX_STANDARD 17)
+set(CMAKE_CXX_STANDARD_REQUIRED ON)
 # 启用 Qt 自动生成
 set(CMAKE_AUTOMOC ON)
 set(CMAKE_AUTOUIC ON)
@@ -26,12 +28,16 @@ include_directories(
     ${catkin_INCLUDE_DIRS}
     ${CMAKE_CURRENT_BINARY_DIR}
     ${Protobuf_INCLUDE_DIRS}
-    /root/catkin_ws/src/ros_project/src/protobuf_msg/Build  # 添加 Protobuf 生成的头文件路径
+    /usr/local/include
+    /usr/local/include/eProsima
+    ${CMAKE_CURRENT_SOURCE_DIR}/../dds/dds_xtypes/destination
+    /root/catkin_ws/src/ros_project/src/protobuf_msg/Build  
 )
 
 # 链接路径
 link_directories(
     ${Protobuf_LIBRARY_DIRS}
+    /usr/local/lib
 )
 
 # 查找 Qt5
@@ -54,6 +60,10 @@ add_library(${PROJECT_NAME} SHARED
     ${CMAKE_CURRENT_SOURCE_DIR}/SignalSlotProxy.cpp
     ${CMAKE_CURRENT_SOURCE_DIR}/rosWorkList.cpp
     ${CMAKE_CURRENT_SOURCE_DIR}/ros_destination.cpp
+    ${CMAKE_CURRENT_SOURCE_DIR}/destinationSiteBuffer.cpp
+    ${CMAKE_CURRENT_SOURCE_DIR}/../dds/dds_destination/destination_recive.cpp
+    ${CMAKE_CURRENT_SOURCE_DIR}/../dds/dds_xtypes/destination/destinationPubSubTypes.cxx
+    ${CMAKE_CURRENT_SOURCE_DIR}/../dds//dds_xtypes/destination/destinationTypeObjectSupport.cxx
     ${PROTO_SRCS} # 添加 Protobuf 生成的源文件
     ${MOC_FILES}  # 添加 MOC 文件
 )
@@ -71,6 +81,9 @@ target_link_libraries(${PROJECT_NAME}
     glog 
     ${catkin_LIBRARIES}  # 确保链接 ROS 库
     ${Protobuf_LIBRARIES}  # 链接 Protobuf 库
+    /usr/local/lib/libfastdds.so
+    /usr/local/lib/libfastrtps.so
+    /usr/local/lib/libfastcdr.so
 )
 
 target_link_libraries(${PROJECT_NAME}_test

@@ -1,0 +1,4 @@
+/root/catkin_ws/src/ros_project/src/dds/dds_destination/build/CMakeFiles/sub_test.dir
+/root/catkin_ws/src/ros_project/src/dds/dds_destination/build/CMakeFiles/pub_test.dir
+/root/catkin_ws/src/ros_project/src/dds/dds_destination/build/CMakeFiles/edit_cache.dir
+/root/catkin_ws/src/ros_project/src/dds/dds_destination/build/CMakeFiles/rebuild_cache.dir

@@ -1,0 +1,14 @@
+module state_and_error {
+    struct ErrorCode {
+        string code;
+    };
+
+    struct ErrorCodeReply {
+        string description;
+        string suggestion;
+    };
+
+    interface ErrorHandle {
+        ErrorCodeReply analyze_error(in ErrorCode error);
+    };
+};
